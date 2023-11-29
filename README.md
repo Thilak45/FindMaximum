@@ -11,29 +11,60 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
-
-
+```
+'''Program to mark the maximum of marks using the list method sort
+Developed by: v.tilak
+RegisterNumber: 23009564'''
+def max_marks(marks):
+    marks.sort()
+    max_mark = marks[-1]
+    return max_mark
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
-
-
-
+```
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: v.tilak
+RegisterNumber: 23009564
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
-
-
-
+```
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i>max:
+            max = i
+    return max
 ```
 ## Sample Input and Output
-![output](./img/max_marks1.jpg) 
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/dd86519b-59c5-44d0-aad9-8e605f285aa0)
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/a096e927-9306-4cf4-93a9-b42122b2ec18)
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/93f5b1dd-8e49-46ef-ae91-79c687e23bd5)
 
 ## Output:
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/b0ef7007-63bb-4dfb-af86-0486c3a791ad)
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/5230365e-cb21-4ec7-9b50-5e867adf5892)
+
+![image](https://github.com/Thilak45/FindMaximum/assets/138849161/1481e3cd-5ee1-4d41-8a01-afd0895e5d9e)
+
+
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
